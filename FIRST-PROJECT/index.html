@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>AIRealm</title>
+    <link rel="icon" type="image/x-icon" href="img/fav.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar background h-nav ">
+        <ul class="nav-list v-class">
+            <div class="logo"><img src="img/logo.png" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstsection">
+        <div class="box-main" id="home">
+            <div class="firstHalf">
+                <p><span class="text-big">
+
+                    </span>
+                </p>
+                <p class="text-small">
+                    Artificial Intelligence, the marvel of our age,
+                    With its boundless potential, it takes center stage.
+                    Machines that think, learn, and adapt,
+                    AI's impact on the world, no one can't anticipate.
+                </p>
+
+                <div class="buttons">
+                    <button class="btn">Join</button>
+                    <button class="btn">View Demo</button>
+
+                </div>
+
+            </div>
+
+            <div class="secondHalf">
+
+                <img src="img/ai.jpg" alt="logo">
+
+            </div>
+
+        </div>
+    </section>
+    <section class="section" id="services">
+        <div class="para">
+            <p class="sectionTag text-big">Virtual Reality (VR) and Augmented Reality (AR)</p>
+            <p class="sectionsubTag text-small">Virtual Reality (VR) provides immersive experiences through simulated
+                environments for training, gaming, architectural visualization, virtual tourism, and therapeutic
+                applications.
+                Augmented Reality (AR) enhances the real-world environment by overlaying digital information, creating
+                interactive and context-aware experiences for applications like navigation, education, retail, and
+                entertainment.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/1.jpg" alt="" class="imgFluid">
+        </div>
+
+    </section>
+
+    <section class="section left">
+        <div class="para">
+            <p class="sectionTag text-big">Robotic Process Automation (RPA) </p>
+            <p class="sectionsubTag text-small">Robotic Process Automation (RPA) is a technology that uses AI-powered
+                bots to automate repetitive and rule-based tasks, streamlining workflows and increasing operational
+                efficiency. Its services include automating data entry, document processing, customer support, and
+                various back-office tasks, leading to reduced human errors, improved productivity, and cost savings for
+                businesses.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/2.jpg" alt="" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="para">
+            <p class="sectionTag text-big">Machine Learning and Predictive Analytics</p>
+            <p class="sectionsubTag text-small">Machine Learning and Predictive Analytics, powered by AI, enable
+                businesses to extract valuable insights from large datasets, build predictive models for future
+                outcomes, identify anomalies and fraud, create personalized recommendation systems, predict customer
+                churn, and develop advanced image and speech recognition algorithms. These services empower companies to
+                make data-driven decisions, enhance user experiences, improve operational efficiency, and stay ahead in
+                the highly competitive market.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/3.jpg" alt="" class="imgFluid">
+        </div>
+
+
+    </section>
+    <hr>
+    <section>
+
+        <section class="contact" id="contactus">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="form">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+                <input class="form-input" type="text" name="name" id="phone" placeholder="Enter your number">
+                <input class="form-input" type="email" name="email" id="name" placeholder="Enter your E-mail">
+                <textarea class="form-input" name="text" id="" cols="30" rows="10"
+                    placeholder="Elaborate your concern"></textarea>
+                <button class="btn-dark">Submit</button>
+            </div>
+        </section>
+    </section>
+    <div class="Footercontainer background">
+        <div class="socialicons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <div class="footerbottom">
+            Copyright &copy; 2023- All rights reserved
+        </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".text-big", {
+            strings: ["The future is Here...!"],
+            typespeed: 100,
+            backspeed: 100,
+            loop: true
+        })
+
+    </script>
+
+    <script src="js/resp.js"></script>
+</body>
+
+</html>
